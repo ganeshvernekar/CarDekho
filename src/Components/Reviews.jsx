@@ -1,6 +1,7 @@
 import React, { useState } from "react";
  import "./Reviews.css";
 
+
 const Reviews = () => {
   const reviews = [
     {
@@ -23,7 +24,18 @@ const Reviews = () => {
         "I have been driving this car for past 2 years now. Me being a passionate driver, find so much comfort and luxury in XL 6. The car is very easy...",
       helpful: { yes: 8, no: 1 },
     },
+    {
+      id: 3,
+      name: "virat",
+      date: "11 Jan 2025",
+      rating: 5,
+      title: "...fantastic",
+      content:
+        "I have been driving this car for past 2 years . its very comfortable and relax and luxuryious car  ",
+      helpful: { yes: 8, no: 1 },
+    },
   ];
+  
 
   const mentions = [
     { label: "ALL", count: 381 },
