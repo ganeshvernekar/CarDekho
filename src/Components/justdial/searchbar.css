@@ -20,13 +20,22 @@ font-weight: bolder;
 .l-header,.header{
 display: inline-block;
 vertical-align: middle;
+
 }
 .l-header{
 display: inline-block;
+
+
+
+
+
 }
 
 .header{
 padding-left: 180px;
+/* border: 1px solid black;
+margin-left: 70px; */
+
 }
 
 p{
@@ -36,6 +45,7 @@ vertical-align: middle ;
 .header{
 display: inline-block;
 vertical-align: middle ;
+
 }
 .language {
 
@@ -77,8 +87,9 @@ font-weight: bolder;
 padding-right: 20px;
 font-weight: bolder;
 border: 2px solid black;
-background-color: rgb(0, 136, 255);
-color: white;
+border-radius: 10px;
+background-color: rgb(221, 232, 215);
+color: rgb(0, 0, 0);
 }
 
 h6{
@@ -101,6 +112,7 @@ padding-bottom: 5px;
 width: 30px; 
 height: 30px;
 vertical-align: middle;
+padding-right:20px ;
 /* color: rgb(9, 196, 253); */
 }
 
@@ -145,7 +157,7 @@ color: rgb(0, 136, 255);
 display: flex;
 align-items: center;
 border: 1px solid black;
-width:200px;
+width:150px;
 height: 30px;
 border-radius: 5px;
 padding-left: 50px;
@@ -160,7 +172,7 @@ color: black;
 display: flex;
 text-align: center;
 align-items: center;
-padding-left: 150px;
+padding-left: 100px;
 width: 1000px;
 height: 30px;
 }

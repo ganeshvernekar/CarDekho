@@ -32,7 +32,7 @@ function Searchbar() {
     </div>
     
     <div className='location'>
-    <FaMapMarker/>betkuli,karwar
+    <FaMapMarker/>kumta,karwar
     <div className="inpt">
     <input
         type="search"
