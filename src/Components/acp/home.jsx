@@ -1,6 +1,6 @@
 import { useState,useEffect } from "react";
 import {  FaCheckCircle, FaCircle, FaDotCircle, FaPen } from 'react-icons/fa';
-
+import "./home.css"
 
 
 function Homepage(){

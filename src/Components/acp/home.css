@@ -1,0 +1,351 @@
+
+.logo1 , .logo2 ,.timer,.lg {
+    display: inline-block;
+    vertical-align: middle;
+    padding-bottom: 0%;
+    margin: 0%;
+    font-size: 26px;
+
+  }
+  
+ .lg{
+    right: 50%;
+ }
+ .logo{
+    padding-top: 10px;
+ }
+  .logo1{
+    color: rgb(0, 0, 175);
+    font-weight: bolder;
+  
+    margin: 0%;
+    padding: 0%;
+  
+  }
+
+  .logo2{
+    margin: 0%;
+    padding: 0%;
+    color: #ccc;
+    font-weight: bolder;
+  }
+  .timer{
+    position: absolute;
+    left: 50%;
+    background-color: blue;
+   
+
+  }
+  .cardg{
+    padding-top: 50px;
+  }
+.card-no,i{
+    display: inline-block;
+    vertical-align: middle;
+}
+.card-no{
+    font-size:large;
+}
+.input-part{
+    width: 100px;
+}
+
+i{
+    position: absolute;
+    left: 55%;
+    color: blue;
+}
+
+
+.etrcrd{
+    color: #605f5f;
+    font-size: small;
+    padding-bottom: 20px;
+}
+
+.ccv{
+    padding-top: 40px;
+}
+
+
+
+.crd, .cvv-input {
+    display: inline-block;
+    vertical-align:  middle;
+
+
+  }
+ .crd p{
+    font-size: small;
+    color: #6a6a6a;
+    padding: 0%;
+    margin: 3px;
+    font-weight:lighter;
+ }
+
+
+.crd{
+    font-weight: bolder;
+    padding-right: 150px;
+}
+
+
+.crdic{
+    padding-right:20px;
+}
+.cvv-input,input{
+    font-size: 20px;
+}
+.ccv input{
+    border-color: rgb(0, 0, 0);
+    
+
+}
+.ccv input:hover{
+    border-color: blue;
+    background-color: rgb(125, 125, 229); ;
+}
+.times{
+    padding-top: 40px;
+}
+
+.times input{
+    color :rgb(0, 0, 0);
+    border-color:rgb(0, 0, 0) ;
+
+    
+}
+
+.times input:hover{
+    border-color: blue;
+    background-color: rgb(125, 125, 229);
+}
+
+.expdate,.month{
+    display: inline-block;
+    vertical-align:  top;
+
+}
+
+.expdate{
+    font-size: large;
+    padding-right: 100px;
+    font-weight: bolder;
+}
+.expdate p{
+    font-size: small;
+    color: #6a6a6a;
+    padding: 0%;
+    margin: 3px;
+    font-weight: lighter;
+} 
+.pass,.inpass{
+
+    display: inline-block;
+    vertical-align:  middle;
+}
+
+.pass p{
+    padding: 0%;
+    margin: 0%;
+    font-size: small;
+    color: #6a6a6a;
+    font-weight: lighter;
+}
+
+.passwd{
+padding-top: 20px;
+font-weight: bolder;
+
+}
+.passwd input{
+    border-color: rgb(3, 3, 3);
+}
+.passwd input:hover{
+    border-color: blue;
+    background-color: rgb(125, 125, 229);
+}
+
+.pass{
+    padding-right: 200px;
+}
+
+.payn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.payn button{
+    width: 600px;
+    height: 60px;
+    color: black;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+.payn button:hover{
+    background-color: blue;
+    color: white
+}
+
+
+.painpt,.passicon{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.box {
+    position: relative;
+    height: 100vh; /* or any other height value */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .outer-box {
+    position: absolute;
+    width: 280px;
+    height: 500px;
+    border: 1px solid rgb(174, 173, 173);
+    z-index: 1;
+    bottom: 0px;
+    border-radius: 30px;
+    background-color: #ccc;
+  }
+  
+  .inner-box {
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    border: 1px solid rgb(183, 183, 183);
+    z-index: 2;
+    top: 0px;
+    border-radius:30px ;
+    background-color: white;
+
+  }
+  
+  .box
+  {
+    padding-top: 20px;
+  }
+
+
+
+  .m-icons,.m-icon2{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .m-icons{
+    padding-right: 130px;
+  }
+
+  .mainicon{
+    padding-bottom: 80px;
+  }
+
+
+  .u-name{
+   font-weight: bold;
+   padding-bottom: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  .cardno{
+    font-weight: bold;
+    /* padding-bottom: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .lg-expr{
+    padding-top: 30px;
+    font-weight: bold;
+    
+    
+  
+  }
+
+
+
+  .descr{
+    padding-top: 170px;
+  }
+
+  .company,.apple{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .company{
+    padding-right: 110px;
+    font-weight: lighter;
+    font-style:italic;
+    
+  }
+  .apple{
+    font-weight: bolder;
+  }
+
+  .on,.no{
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .on {
+    padding-right: 70px;
+    font-weight: lighter;
+  }
+  .no{
+    font-weight: bolder;
+  }
+  .product,.mac{
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .product{
+    padding-right: 100px;
+    font-weight: lighter;
+  }
+
+  .mac{
+    font-weight: bolder;
+  }
+
+
+  .vat,.doller{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .vat{
+    padding-right: 100px;
+    font-weight: lighter;
+  }
+
+  .doller{
+    font-weight: bolder;
+  }
+
+  .yhp,.c-icon{
+    display: inline-block;
+    vertical-align: middle;
+  }
+    .yhp{
+       padding-right: 100px;
+    font-weight: lighter; 
+    }
+
+   
+   
+
+    .lg1 img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
