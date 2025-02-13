@@ -1,0 +1,135 @@
+/* CheckoutPage.css */
+.checkout-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background: #f9fafb;
+    border-radius: 10px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .section-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 16px;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .product-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .product-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+  }
+  
+  .product-name {
+    font-weight: 500;
+  }
+  
+  .product-size {
+    font-size: 12px;
+    color: #6b7280;
+  }
+  
+  .product-price {
+    font-weight: 600;
+  }
+  
+  .shipping-method {
+    margin-top: 16px;
+  }
+  
+  .section-subtitle {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .shipping-options {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .shipping-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .label {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 12px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+  }
+  
+  .card-details {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .short-input {
+    width: 80px;
+  }
+  
+  .billing-details {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .total-section {
+    border-top: 1px solid #e5e7eb;
+    padding-top: 12px;
+    margin-top: 12px;
+  }
+  
+  .total-row {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+  }
+  
+  .pay-button {
+    width: 100%;
+    background: #000;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 12px;
+  }
+  
