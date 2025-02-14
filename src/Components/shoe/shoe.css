@@ -3,7 +3,7 @@
     max-width: 900px;
     margin: auto;
     padding: 20px;
-    background: #f9fafb;
+    background: #e2e6d0;
     border-radius: 10px;
   }
   
@@ -11,6 +11,7 @@
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 16px;
+    font-family:sans-serif;
   }
   
   .grid-layout {
@@ -23,6 +24,7 @@
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 10px;
+    font-family: sans-serif;
   }
   
   .description {
@@ -44,9 +46,10 @@
   }
   
   .product-image {
-    width: 60px;
-    height: 60px;
+    width: 150px;
+    height: 150px;
     border-radius: 5px;
+    border: 1px solid black;
   }
   
   .product-name {
@@ -92,10 +95,19 @@
   .input {
     width: 100%;
     padding: 8px;
-    border: 1px solid #d1d5db;
+    border: 1px solid #000000;
     border-radius: 5px;
+    background-color: #e5e7eb;
+    margin-top: 10px;
   }
-  
+  .input1 {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #e5e7eb;
+  }
   .card-details {
     display: flex;
     gap: 8px;
@@ -124,7 +136,7 @@
   
   .pay-button {
     width: 100%;
-    background: #000;
+    background: #164b1f;
     color: white;
     padding: 10px;
     font-size: 16px;
