@@ -1,0 +1,120 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f4f8;
+  }
+  
+  .payment-box {
+    display: flex;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+  }
+  
+  .form-section {
+    width: 65%;
+    padding-right: 15px;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .form-group {
+    margin-top: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .expiry-group {
+    width: 100%;
+  }
+  
+  .expiry-fields {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .pay-button {
+    width: 100%;
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  
+  .pay-button:hover {
+    background: #0056b3;
+  }
+  
+  .summary-section {
+    width: 35%;
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .card-summary {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card-date {
+    color: #888;
+    font-size: 0.9rem;
+  }
+  
+  .summary-details {
+    margin-top: 10px;
+  }
+  
+  .detail-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+  }
+  
+  .total-row {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  hr {
+    margin: 10px 0;
+    border: 0.5px solid #ddd;
+  }
+  
