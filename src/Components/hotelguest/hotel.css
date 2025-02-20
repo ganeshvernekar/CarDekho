@@ -1,21 +1,17 @@
-body {
-  background-color: #f0f4f8;
-  font-family: 'Arial', sans-serif;
-}
-
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background-color: #d1fae5;
 }
 
 .dashboard {
   background: white;
   width: 350px;
-  border-radius: 20px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
   padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .header {
@@ -24,77 +20,122 @@ body {
   gap: 10px;
 }
 
-.header .icon {
-  font-size: 24px;
-  color: gray;
+.icon {
+  font-size: 30px;
+  color: #6b7280;
 }
 
-.header-text h2 {
-  font-size: 18px;
+.title {
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
-.header-text p {
-  font-size: 14px;
-  color: gray;
+.subtitle {
+  font-size: 0.9rem;
+  color: #6b7280;
 }
 
-.recommendation {
-  background: #e0f2e9;
-  padding: 10px;
+.lock-icon {
+  margin-left: auto;
+  color: #6b7280;
+}
+
+.recommended {
+  background: #a7f3d0;
+  padding: 15px;
   border-radius: 10px;
   position: relative;
   margin-top: 15px;
 }
 
-.recommendation h3 {
-  font-size: 14px;
+.section-title {
+  font-size: 1rem;
   font-weight: bold;
 }
 
-.recommendation p {
-  font-size: 12px;
-  color: gray;
+.section-text {
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.section-footer {
+  font-size: 0.75rem;
+  color: #777;
+}
+
+.price-tag {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #f97316;
+  color: white;
+  font-size: 0.75rem;
+  padding: 4px 8px;
+  border-radius: 10px;
 }
 
 .popular-experiences {
   margin-top: 15px;
 }
 
+.experience-list {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+}
+
 .experience-item {
+  background: #e5e7eb;
+  padding: 8px;
+  border-radius: 8px;
   display: flex;
   align-items: center;
   gap: 5px;
-  background: #f4f4f4;
-  padding: 8px;
-  border-radius: 8px;
-  font-size: 14px;
 }
 
-.services {
+.all-services {
   margin-top: 15px;
+}
+
+.services-list {
+  margin-top: 10px;
 }
 
 .service-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #f8f8f8;
+  background: #f3f4f6;
   padding: 10px;
-  border-radius: 8px;
-  font-size: 14px;
-  cursor: pointer;
+  border-radius: 10px;
+  margin-bottom: 8px;
 }
 
-.points {
+.service-text {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.9rem;
+}
+
+.chevron-icon {
+  color: #6b7280;
+}
+
+.points-section {
+  background: #e5e7eb;
+  padding: 12px;
+  border-radius: 10px;
   text-align: center;
-  background: #f8f8f8;
-  padding: 10px;
-  border-radius: 8px;
   margin-top: 15px;
 }
 
-.points p {
-  font-size: 14px;
-  color: gray;
+.points {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.points-description {
+  font-size: 0.8rem;
+  color: #6b7280;
 }

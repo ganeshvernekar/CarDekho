@@ -1,5 +1,5 @@
 import React from "react";
-import "./hotel.css"
+import "./hotel.css";
 import { FaUserCircle, FaLock, FaChevronRight, FaHome } from "react-icons/fa";
 import { MdOutlineRoomService } from "react-icons/md";
 import { AiOutlineKey } from "react-icons/ai";
