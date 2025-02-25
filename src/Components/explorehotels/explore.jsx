@@ -1,6 +1,7 @@
 import React from "react";
-import "./explore.css"
+import "./explore.css";
 import { Search, Hotel, Plane, MapPin, Utensils, Star } from "lucide-react";
+import hotel from "./images/hotel.jpg"
 
 const hotels = [
   {
@@ -28,17 +29,19 @@ const hotels = [
 
 export default function ExploreHotels() {
   return (
-    <div className="p-5 bg-gradient-to-b from-gray-900 to-gray-800 min-h-screen text-white">
+    <div className="explore-container">
       {/* Header */}
-      <div className="flex justify-between items-center mb-6">
-        <h1 className="text-2xl font-bold">Let’s <br /> Explore Hotels</h1>
-        <button className="p-2 bg-gray-700 rounded-full">
+      <div className="explore-header">
+        <h1 className="explore-title">
+          Let’s <br /> Explore Hotels
+        </h1>
+        <button className="search-button">
           <Search size={20} />
         </button>
       </div>
 
       {/* Navigation Tabs */}
-      <div className="flex space-x-4 mb-6">
+      <div className="navigation-tabs">
         <button className="tab-button active">
           <Hotel size={18} /> Hotel
         </button>
@@ -54,24 +57,24 @@ export default function ExploreHotels() {
       </div>
 
       {/* Popular Hotels Section */}
-      <div className="flex justify-between items-center mb-3">
-        <h2 className="text-lg font-semibold">Popular Hotels</h2>
-        <button className="text-orange-400 text-sm">See all</button>
+      <div className="section-header">
+        <h2 className="section-title">Popular Hotels</h2>
+        <button className="see-all-button">See all</button>
       </div>
 
-      <div className="overflow-x-auto flex space-x-4 pb-4">
+      <div className="hotels-list">
         {hotels.map((hotel, index) => (
           <div key={index} className="hotel-card">
             <img src={hotel.image} alt={hotel.name} className="hotel-image" />
             <h3 className="hotel-name">{hotel.name}</h3>
             <p className="hotel-location">
-              <MapPin size={14} className="inline-block mr-1" />
+              <MapPin size={14} className="icon" />
               {hotel.location}
             </p>
-            <div className="flex justify-between items-center">
-              <p className="hotel-price text-orange-400">{hotel.price}</p>
+            <div className="hotel-info">
+              <p className="hotel-price">{hotel.price}</p>
               <p className="hotel-rating">
-                <Star size={14} className="text-yellow-400 inline-block mr-1" />
+                <Star size={14} className="icon star-icon" />
                 {hotel.rating}
               </p>
             </div>

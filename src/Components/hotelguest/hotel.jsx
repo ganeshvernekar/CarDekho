@@ -8,68 +8,70 @@ import { BiCycling } from "react-icons/bi";
 
 const HotelGuestDashboard = () => {
   return (
-    <div className="min-h-screen bg-green-100 flex justify-center p-4">
-      <div className="bg-white w-[350px] rounded-3xl shadow-lg p-4 relative">
+    <div className="hotel-dashboard">
+      <div className="hotel-dashboard__container">
         {/* Header Section */}
-        <div className="flex items-center gap-3">
-          <FaUserCircle className="text-3xl text-gray-600" />
+        <div className="hotel-dashboard__header">
+          <FaUserCircle className="hotel-dashboard__icon" />
           <div>
-            <h2 className="text-lg font-semibold">Joana Barros</h2>
-            <p className="text-sm text-gray-500">Hotel Guest</p>
+            <h2 className="hotel-dashboard__guest-name">Joana Barros</h2>
+            <p className="hotel-dashboard__guest-role">Hotel Guest</p>
           </div>
-          <FaLock className="ml-auto text-gray-500" />
+          <FaLock className="hotel-dashboard__lock-icon" />
         </div>
 
         {/* Recommended Section */}
-        <div className="mt-4 bg-green-200 rounded-xl p-3 relative">
-          <h3 className="text-sm font-semibold">Enjoy some me time</h3>
-          <p className="text-xs text-gray-600">Relax with our massages and treatments.</p>
-          <span className="text-xs text-gray-500">Spa facilities will close in 4 hours</span>
-          <span className="absolute top-2 right-2 bg-orange-400 text-white text-xs px-2 py-1 rounded-full">
-            From $30/session
+        <div className="hotel-dashboard__recommendation">
+          <h3 className="hotel-dashboard__recommendation-title">Enjoy some me time</h3>
+          <p className="hotel-dashboard__recommendation-text">
+            Relax with our massages and treatments.
+          </p>
+          <span className="hotel-dashboard__recommendation-time">
+            Spa facilities will close in 4 hours
           </span>
+          <span className="hotel-dashboard__recommendation-price">From $30/session</span>
         </div>
 
         {/* Popular Experiences */}
-        <div className="mt-4">
-          <h3 className="text-sm font-semibold">Popular experiences</h3>
-          <div className="flex gap-3 mt-2 overflow-auto">
-            <div className="bg-gray-200 p-2 rounded-lg flex items-center gap-2 text-sm">
-              <BiCycling className="text-blue-600" /> Bike Riding
+        <div className="hotel-dashboard__experiences">
+          <h3 className="hotel-dashboard__section-title">Popular experiences</h3>
+          <div className="hotel-dashboard__experiences-list">
+            <div className="hotel-dashboard__experience">
+              <BiCycling className="hotel-dashboard__experience-icon" /> Bike Riding
             </div>
-            <div className="bg-gray-200 p-2 rounded-lg flex items-center gap-2 text-sm">
-              🍽️ Dinner at the Table
-            </div>
+            <div className="hotel-dashboard__experience">🍽️ Dinner at the Table</div>
           </div>
         </div>
 
         {/* All Services */}
-        <div className="mt-4">
-          <h3 className="text-sm font-semibold">All services</h3>
-          <div className="mt-2 space-y-2">
-            <div className="flex justify-between items-center bg-gray-100 p-3 rounded-lg">
-              <span className="flex items-center gap-2 text-sm"><FaHome /> Facilities</span>
-              <FaChevronRight className="text-gray-500" />
+        <div className="hotel-dashboard__services">
+          <h3 className="hotel-dashboard__section-title">All services</h3>
+          <div className="hotel-dashboard__services-list">
+            <div className="hotel-dashboard__service">
+              <span><FaHome /> Facilities</span>
+              <FaChevronRight className="hotel-dashboard__service-icon" />
             </div>
-            <div className="flex justify-between items-center bg-gray-100 p-3 rounded-lg">
-              <span className="flex items-center gap-2 text-sm"><AiOutlineKey /> Virtual Key</span>
-              <FaChevronRight className="text-gray-500" />
+            <div className="hotel-dashboard__service">
+              <span><AiOutlineKey /> Virtual Key</span>
+              <FaChevronRight className="hotel-dashboard__service-icon" />
             </div>
-            <div className="flex justify-between items-center bg-gray-100 p-3 rounded-lg">
-              <span className="flex items-center gap-2 text-sm"><IoBedOutline /> My Room</span>
-              <FaChevronRight className="text-gray-500" />
+            <div className="hotel-dashboard__service">
+              <span><IoBedOutline /> My Room</span>
+              <FaChevronRight className="hotel-dashboard__service-icon" />
             </div>
-            <div className="flex justify-between items-center bg-gray-100 p-3 rounded-lg">
-              <span className="flex items-center gap-2 text-sm"><MdOutlineRoomService /> Order Room Service</span>
-              <FaChevronRight className="text-gray-500" />
+            <div className="hotel-dashboard__service">
+              <span><MdOutlineRoomService /> Order Room Service</span>
+              <FaChevronRight className="hotel-dashboard__service-icon" />
             </div>
           </div>
         </div>
 
         {/* Points Section */}
-        <div className="mt-4 bg-gray-100 p-3 rounded-lg text-center">
-          <p className="text-lg font-semibold">06 points</p>
-          <p className="text-xs text-gray-500">Accumulate points with your stay. They will turn into special offers for you.</p>
+        <div className="hotel-dashboard__points">
+          <p className="hotel-dashboard__points-value">06 points</p>
+          <p className="hotel-dashboard__points-text">
+            Accumulate points with your stay. They will turn into special offers for you.
+          </p>
         </div>
       </div>
     </div>
