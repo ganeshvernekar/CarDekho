@@ -1,147 +1,136 @@
-/* CheckoutPage.css */
-.checkout-container {
-    max-width: 900px;
-    margin: auto;
-    padding: 20px;
-    background: #e2e6d0;
-    border-radius: 10px;
-  }
+/* Checkout Container */
+.checkout {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #d8dfc4;
+}
+
+.checkout__title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.checkout__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* Order Summary */
+.checkout__summary {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+
+.checkout__section-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.checkout__description {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.checkout__product-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.checkout__product-item {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.checkout__product-image {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.checkout__product-name {
+  font-weight: bold;
+}
+
+.checkout__product-size,
+.checkout__product-price {
+  color: #000000;
+  font-size: 14px;
   
-  .title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 16px;
-    font-family:sans-serif;
-  }
+}
+
+/* Payment Details */
+.checkout__payment {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.checkout__label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.checkout__input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.checkout__input--short {
+  width: calc(50% - 5px);
+}
+
+.checkout__input--secondary {
+  margin-top: -10px;
+}
+
+.checkout__card-details {
+  display: flex;
+  gap: 10px;
   
-  .grid-layout {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-  }
-  
-  .section-title {
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 10px;
-    font-family: sans-serif;
-  }
-  
-  .description {
-    font-size: 14px;
-    color: #6b7280;
-    margin-bottom: 16px;
-  }
-  
-  .product-list {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-  }
-  
-  .product-item {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-  }
-  
-  .product-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 5px;
-    border: 1px solid black;
-  }
-  
-  .product-name {
-    font-weight: 500;
-  }
-  
-  .product-size {
-    font-size: 12px;
-    color: #6b7280;
-  }
-  
-  .product-price {
-    font-weight: 600;
-  }
-  
-  .shipping-method {
-    margin-top: 16px;
-  }
-  
-  .section-subtitle {
-    font-size: 16px;
-    font-weight: 500;
-  }
-  
-  .shipping-options {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-  }
-  
-  .shipping-option {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-  
-  .label {
-    font-size: 14px;
-    font-weight: 500;
-    margin-top: 12px;
-  }
-  
-  .input {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #000000;
-    border-radius: 5px;
-    background-color: #e5e7eb;
-    margin-top: 10px;
-  }
-  .input1 {
-    width: 100%;
-    padding: 8px;
-    margin-top: 10px;
-    border-radius: 5px;
-    border: 1px solid black;
-    background-color: #e5e7eb;
-  }
-  .card-details {
-    display: flex;
-    gap: 8px;
-  }
-  
-  .short-input {
-    width: 80px;
-  }
-  
-  .billing-details {
-    display: flex;
-    gap: 8px;
-  }
-  
-  .total-section {
-    border-top: 1px solid #e5e7eb;
-    padding-top: 12px;
-    margin-top: 12px;
-  }
-  
-  .total-row {
-    display: flex;
-    justify-content: space-between;
-    font-weight: 600;
-  }
-  
-  .pay-button {
-    width: 100%;
-    background: #164b1f;
-    color: white;
-    padding: 10px;
-    font-size: 16px;
-    font-weight: 600;
-    border-radius: 5px;
-    margin-top: 12px;
-  }
-  
+}
+
+/* Total Section */
+.checkout__total {
+  margin-top: 20px;
+}
+
+.checkout__total-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.checkout__total-row--strong {
+  font-weight: bold;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+/* Pay Button */
+.checkout__pay-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4caf50;
+  color: #fff;
+  border: 1px solid black;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.checkout__pay-button:hover {
+  background-color: #45a049;
+}

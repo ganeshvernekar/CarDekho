@@ -1,0 +1,124 @@
+/* Container Styles */
+.menu-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Header Section */
+.menu-header {
+  position: relative;
+}
+
+.menu-header-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.order-button {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  padding: 8px 16px;
+  background-color: #35e54c;
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Details Section */
+.menu-details {
+  padding: 16px;
+}
+
+.menu-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.menu-rating, .menu-location, .menu-stats {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  color: #666;
+}
+
+.menu-rating span, .menu-location span, .menu-stat-item span {
+  margin-left: 6px;
+}
+
+.menu-stat-item {
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.menu-description {
+  margin-top: 12px;
+  color: #555;
+  font-size: 14px;
+}
+
+/* Featured Items Section */
+.featured-title {
+  margin-top: 24px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.featured-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-top: 16px;
+
+}
+
+
+.featured-card {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.featured-image {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.featured-name {
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.featured-description {
+  margin-top: 4px;
+  color: #777;
+  font-size: 12px;
+}
+
+.featured-price {
+  margin-top: 6px;
+  color: #ff9900;
+  font-weight: bold;
+  font-size: 14px;
+}
+.featured-items :hover{
+  background-color: #d4e7c0;
+}

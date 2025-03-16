@@ -1,0 +1,916 @@
+*{
+    font-family: sans-serif;
+}
+
+
+.header{
+    display: flex;
+    text-align: center;
+    position: absolute;
+    left: 70px;
+    top: 100px;
+
+}
+
+.bari , b ,.sin,.search{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bari{
+    padding-right: 10px;
+    padding-top:10px ;
+}
+
+.header b{
+    padding-top:10px ;
+}
+
+
+.header b{
+    padding-right: 50px;
+}
+
+.sin{
+    height: 30px;
+    width: 500px;
+    background-color: #c6e8c7;
+
+   
+}
+
+.search{
+    position: absolute;
+    right: 380px;
+    top: 10px;
+}
+
+.decor{
+    position: absolute;
+    top: 260px; 
+    left: 50px;
+    /* border: 2px solid green; */
+    width: 810px;
+    height: 180px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: #c6e8c7;
+    color: rgb(0, 168, 0);
+    border-radius: 30px;
+    
+    
+}
+
+
+
+.dot6{
+    position: absolute;
+   right: 605px;
+   top: 330px;
+   transform: rotate(90deg);
+   gap: 0%;
+   padding: 0%;
+   margin: 0%;
+   font-size: larger;
+   font-weight: bolder;
+   color: #ccc ;
+}
+
+.dot6:hover {
+    color: green;
+}
+
+.decor h1{
+    position: absolute;
+    left: 80px;
+    /* padding-top: 30px; */
+   
+}
+
+.lm{
+    position: absolute;
+    bottom: 30px;
+    left: 120px;
+    border: 2px solid;
+    border-radius: 30px;
+    width: 100px;
+}
+
+.lm:hover,.rit:hover{
+background-color: rgb(0, 221, 0);
+color: black;
+font-size: x-small;
+}
+
+
+.rit{
+    font-size: smaller;
+}
+
+
+
+.lemo,.rit{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+ .imgcircle img{
+    border-radius: 100px;
+    width: 230px;
+    height: 220px;
+}
+
+
+.dishc{
+    position: absolute;
+  top: 480px;
+   left: 50px;
+}
+
+
+
+/* .All ,.burger,.pizza,.pasta,.fish,.chicken,.beef{
+    padding-right: 2px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0%;
+} */
+
+
+.ball,.bbg,.bpz,.bps,.bfs,.bck,.bbf,.bxs{
+    /* border: 1px solid; */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 95px;
+    padding: 2px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.ball:hover,.bbg:hover,.bpz:hover,.bps:hover,.bfs:hover,.bck:hover,.bbf:hover,.bxs:hover{
+    background-color: rgb(3, 182, 3);
+    color: white;
+    border-radius: 5px;
+
+}
+
+.imgbxs{
+    position: absolute;
+    top:  580px; ;
+    left: 50px;
+}
+
+
+.imgbx1,.imgbx2,.imgbx3,.imgbx4,.imgbx5{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.img1 img{
+    width:150px;
+    height: 100px;
+}
+
+.i1{
+    padding-left: 10px;
+
+    color: #ccc;
+}
+
+.i2{
+    padding-left: 2px;
+
+    color: #ccc;
+}
+
+.imgdsc1 i{
+    padding-left: 5px;
+}
+
+
+.imgdsc1{
+    padding-left: 5px;
+}
+.home1{
+    padding-left: 5px;
+    margin: 0%;
+}
+
+
+
+
+
+
+/* 2 catogory */
+.img2 img{
+    width:150px;
+    height: 100px;
+}
+
+.info1{
+    padding-left: 10px;
+
+    color: #ccc;
+}
+
+.info2{
+    padding-left: 2px;
+
+    color: #ccc;
+}
+
+.imgdsc2 i{
+    padding-left: 5px;
+}
+.imgdsc2{
+    padding-left: 5px;
+}
+
+
+
+
+
+.imgbx2{
+    position: absolute;
+
+    left: 170px;
+}
+
+
+.home2{
+    padding-left: 5px;
+    margin: 0%;
+}
+
+/*3rd cat  */
+
+
+.img3 img{
+    width:150px;
+    height: 100px;
+}
+
+.info3{
+    padding-left: 10px;
+
+    color: #ccc;
+}
+
+.info4{
+    padding-left: 2px;
+
+    color: #ccc;
+}
+
+.imgdsc3 i{
+    padding-left: 5px;
+}
+.imgdsc3{
+    padding-left: 5px;
+}
+
+
+.imgbx3{
+    position: absolute;
+
+    left: 340px;
+}
+
+
+.home3{
+    padding-left: 5px;
+    margin: 0%;
+}
+
+/* 4 cat */
+
+.img4 img{
+    width:150px;
+    height: 100px;
+}
+
+.info5{
+    padding-left: 10px;
+
+    color: #ccc;
+}
+
+.info6{
+    padding-left: 2px;
+
+    color: #ccc;
+}
+
+.imgdsc4 i{
+    padding-left: 5px;
+}
+.imgdsc4{
+    padding-left: 5px;
+}
+
+
+.imgbx4{
+    position: absolute;
+    
+    left: 510px;
+}
+
+
+.home4{
+    padding-left: 5px;
+    margin: 0%;
+}
+
+
+
+
+/* 5th cat */
+
+
+
+.img5 img{
+    width:150px;
+    height: 100px;
+}
+
+.info7{
+    padding-left: 10px;
+
+    color: #ccc;
+}
+
+.info8{
+    padding-left: 2px;
+
+    color: #ccc;
+}
+
+.imgdsc5 i{
+    padding-left: 5px;
+}
+.imgdsc5{
+    padding-left: 5px;
+}
+
+
+.imgbx5{
+    position: absolute;
+    
+    left: 680px;
+}
+
+
+.home5{
+    padding-left: 5px;
+    margin: 0%;
+}
+
+
+
+.lowercat{
+    position: absolute;
+    top: 220px;
+}
+
+
+/* 6th cat */
+
+
+
+
+
+.img6 img{
+    width:150px;
+    height: 100px;
+}
+
+.info7{
+    padding-left: 10px;
+
+    color: #ccc;
+}
+
+.info8{
+    padding-left: 2px;
+
+    color: #ccc;
+}
+
+.imgdsc6 i{
+    padding-left: 5px;
+}
+.imgdsc6{
+    padding-left: 5px;
+}
+
+
+.imgbx6{
+    position: absolute;
+    
+    left: 680px;
+
+    
+}
+
+
+.home6{
+    padding-left: 5px;
+    margin: 0%;
+}
+
+
+/* 7thcat */
+
+
+
+.img7 img{
+    width:150px;
+    height: 100px;
+}
+
+.info7{
+    padding-left: 10px;
+
+    color: #ccc;
+}
+
+.info8{
+    padding-left: 2px;
+
+    color: #ccc;
+}
+
+.imgdsc7 i{
+    padding-left: 5px;
+}
+.imgdsc7{
+    padding-left: 5px;
+}
+
+
+.imgbx7{
+    position: absolute;
+    
+    left: 510px;
+
+}
+
+
+.home7{
+    padding-left: 5px;
+    margin: 0%;
+}
+
+
+/* 8th cat */
+
+
+.img8 img{
+    width:150px;
+    height: 100px;
+}
+
+.info8{
+    padding-left: 10px;
+
+    color: #ccc;
+}
+
+.info8{
+    padding-left: 2px;
+
+    color: #ccc;
+}
+
+.imgdsc8 i{
+    padding-left: 5px;
+}
+.imgdsc8{
+    padding-left: 5px;
+}
+
+
+.imgbx8{
+    position: absolute;
+    
+    left: 340px;
+
+}
+
+
+.home8{
+    padding-left: 5px;
+    margin: 0%;
+}
+
+
+/* 9th cat */
+
+
+.img9 img{
+    width:150px;
+    height: 100px;
+}
+
+.info8{
+    padding-left: 10px;
+
+    color: #ccc;
+}
+
+.info8{
+    padding-left: 2px;
+
+    color: #ccc;
+}
+
+.imgdsc9 i{
+    padding-left: 5px;
+}
+.imgdsc9{
+    padding-left: 5px;
+}
+
+
+.imgbx9{
+    position: absolute;
+    
+    left: 170px;
+
+}
+
+
+.home9{
+    padding-left: 5px;
+    margin: 0%;
+}
+/* 10th cat */
+
+.img10 img{
+    width:150px;
+    height: 100px;
+}
+
+.info8{
+    padding-left: 10px;
+
+    color: #ccc;
+}
+
+.info8{
+    padding-left: 2px;
+
+    color: #ccc;
+}
+
+.imgdsc10 i{
+    padding-left: 5px;
+}
+.imgdsc10{
+    padding-left: 5px;
+}
+
+
+.imgbx10{
+    position: absolute;
+    
+    
+
+}
+
+
+.home10{
+    padding-left: 5px;
+    margin: 0%;
+}
+
+
+
+.rblock{
+    background-color: #ebf9eb;
+}
+
+.mo{
+    font-weight: bolder;
+    color: black;
+    padding-left: 20px;
+    position: absolute;
+    top: 80px;
+}
+
+
+.orderty{
+    position: absolute;
+    top: 150px;
+}
+
+.type1{
+    position: absolute;
+    left: 10px;
+}
+
+.oi1,.order1{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.order1 p{
+   
+    margin: 0%;
+}
+
+.order1{
+    padding-left: 10px;
+}
+
+.order1 b{
+    padding-right: 70px;
+}
+
+.sv{
+    position: absolute;
+    right: 30px;
+}
+
+button{
+    border: none;
+    background-color: #ebf7eb;
+    font-weight: bolder;
+}
+
+.obt1{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    border-radius:30px ;
+    
+}
+
+.order1 h5{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+
+.type2{
+    position: absolute;
+    left: 10px;
+    top: 90px;
+}
+
+.oi2,.order2{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.order2 p{
+   
+    margin: 0%;
+}
+
+.order2{
+    padding-left: 10px;
+}
+
+.order2 b{
+    padding-right: 50px;
+}
+
+.sv{
+    position: absolute;
+    right: 30px;
+}
+
+button{
+    border: none;
+    background-color: #ebf7eb;
+    font-weight: bolder;
+}
+
+.obt2{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    border-radius:30px ;
+    
+}
+
+.order2 h5{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+
+
+.type3{
+    position: absolute;
+    left: 10px;
+    top: 180px;
+}
+
+.oi3,.order3{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.order3 p{
+   
+    margin: 0%;
+}
+
+.order3{
+    padding-left: 10px;
+}
+
+.order3 b{
+    padding-right: 50px;
+}
+
+.sv{
+    position: absolute;
+    right: 30px;
+}
+
+button{
+    border: none;
+    background-color: #ebf7eb;
+    font-weight: bolder;
+}
+
+.obt3{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    border-radius:30px ;
+    
+}
+
+.order3 h5{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+
+
+
+.type4{
+    position: absolute;
+    left: 10px;
+    top: 270px;
+}
+
+.oi4,.order4{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.order4 p{
+   
+    margin: 0%;
+}
+
+.order4{
+    padding-left: 10px;
+}
+
+.order4 b{
+    padding-right: 50px;
+}
+
+.sv{
+    position: absolute;
+    right: 30px;
+}
+
+button{
+    border: none;
+    background-color: #ebf7eb;
+    font-weight: bolder;
+}
+
+.obt4{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    border-radius:30px ;
+    
+}
+
+.order4 h5{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.coupen{
+    position: absolute;
+    top: 400px;
+    left: 10px;
+    background-color: rgb(202, 241, 202);
+}
+
+.coupen p{
+   position: absolute;
+   left:20px;
+   color: rgb(1, 113, 1);
+   font-weight: bold;
+   
+}
+
+.coupen b{
+    border: 1px solid black;
+    width: 80px;
+   padding: 2px;
+   padding-left: 15px;
+   background-color: rgb(4, 166, 4);
+   color: black;
+   border-radius: 20px;
+   
+}
+
+
+.coupen b:hover{
+font-weight: lighter;
+color: white;
+}
+
+
+.bill{
+    position:absolute;
+    top:650px
+}
+
+
+.subt p ,b{
+display: inline-block;
+vertical-align: middle;
+}
+
+
+
+.subt b{
+    padding-left: 10px;
+}
+
+.subt p{
+    padding-left: 130px;
+}
+
+
+.df p,b{
+    display: inline-block;
+vertical-align: middle;
+}
+
+
+
+.df b{
+    padding-left: 10px;
+}
+
+.df p{
+    padding-left: 120px;
+}
+
+.tax p,b{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.tax b{
+    padding-left: 10px;
+}
+
+.tax p{
+    padding-left: 160px;
+}
+
+
+.tot,.totp{
+    display: inline-block;
+    vertical-align: middle;
+} 
+
+.totp{
+    padding-left:120px; 
+}
+
+
+.tot{
+    padding-left: 10px;
+}

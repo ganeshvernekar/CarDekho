@@ -1,0 +1,143 @@
+.fr{
+    color: green;
+    font-size: large;
+}
+
+.bds,.stear,.bltu,.smart{
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+.stear{
+    padding-left: 10px;
+}
+
+.bltu{
+    padding-left: 10px;
+}
+
+.stear img{
+    width:230px;
+    height:150px
+}
+
+
+.bds img{
+    width:230px;
+    height:150px
+}
+
+.bltu img{
+    width:230px;
+    height:150px
+}
+
+.smart img{
+    width:230px;
+    height:150px
+}
+
+.slk{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+
+.dscr1{
+    position: absolute;
+    bottom: 335px;
+    left: 20px;
+    border-left: 10px solid;
+    border-left-color: rgb(255, 238, 0);
+    border-right-color: white;
+    border-top-color: white;
+    border-bottom-color: white;
+    padding: 10px;
+   
+}
+ 
+.dscr1 b{
+    font-size: large;
+    font-weight: bolder;
+}
+
+.dscr1 i{
+    font-size: smaller;
+    color: #8f8f8f
+}
+.mg{
+    font-size: small;
+}
+
+
+
+.dscr2{
+    position: absolute;
+    bottom: 335px;
+    left: 280px;
+    border-left: 10px solid;
+    border-left-color: rgb(255, 238, 0);
+    border-right-color: white;
+    border-top-color: white;
+    border-bottom-color: white;
+    padding: 10px;
+   
+}
+ 
+.dscr2 b{
+    font-size: large;
+    font-weight: bolder;
+}
+
+.dscr2 i{
+    font-size: smaller;
+    color: #8f8f8f
+}
+.mg{
+    font-size: small;
+}
+
+.dscr3{
+    position: absolute;
+    bottom: 335px;
+    left: 540px;
+    padding: 10px;
+   
+}
+ 
+.dscr3 b{
+    font-size: large;
+    font-weight: bolder;
+}
+
+.dscr3 i{
+    font-size: smaller;
+    color: #8f8f8f
+}
+.mg{
+    font-size: small;
+}
+
+
+.dscr4{
+    position: absolute;
+    bottom: 335px;
+    left: 800px;
+    padding: 10px;
+   
+}
+ 
+.dscr4 b{
+    font-size: large;
+    font-weight: bolder;
+}
+
+.dscr4 i{
+    font-size: smaller;
+    color: #8f8f8f
+}
+.mg{
+    font-size: small;
+}
